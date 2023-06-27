@@ -1,7 +1,7 @@
 # Practiceproblm
-p=list(map(input().split()))
+p=list(map(int,input().split()))
 count=0
-for i in range(p):
+for i in p:
     if i>=10:
         count+=1
 print(count)
